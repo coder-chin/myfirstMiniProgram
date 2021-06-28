@@ -1,0 +1,6 @@
+<view class="title-area">
+    <view class="title">{{title}}</view>
+    <navigator>
+      <view class="more">更多 ></view>
+    </navigator>
+</view>

@@ -1,0 +1,13 @@
+<!--components/Header/Header.wxml-->
+<view class="header">
+  <view class="logo">
+    <navigator url="/pages/index/index" open-type="switchTab">
+      <image src="/img/logo.png" mode="widthFix" class="logo-img"></image>
+    </navigator>
+  </view>
+
+  <view class="service">
+    <button open-type="contact" class="btn" size="mini" style="padding:0;">btn</button>
+    <image src="/img/message.png" class="service-img" mode="widthFix"></image>
+  </view>
+</view>

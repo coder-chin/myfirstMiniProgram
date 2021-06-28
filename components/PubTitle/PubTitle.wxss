@@ -1,0 +1,26 @@
+/* components/PubTitle/PubTitle.wxss */
+.title-area{
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+  align-items: center;
+}
+
+.title{
+  font-size: 40rpx;
+  height: 100%;
+  position: relative;
+  padding-left: 20rpx;
+}
+
+.title::before{
+  content: "";
+  display: block;
+  height: 34rpx;
+  width: 8rpx;
+  background: #da0600;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

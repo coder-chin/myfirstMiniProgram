@@ -1,0 +1,105 @@
+.swiper{
+  width: 100%;
+  height: 195rpx;
+}
+
+.swiper-item{
+  height: 100%;
+}
+
+.department{
+  padding: 30rpx 20rpx;
+}
+.college{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 186rpx;
+}
+
+.institute{
+  text-align: center;
+  height: 100%;
+  flex: 0 0 140rpx;
+  margin: 0 10rpx;
+}
+
+.icon{
+  width: 120rpx;
+  margin: 0 auto;
+}
+
+.desc{
+  font-size: 26rpx;
+}
+
+.work{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50rpx 25rpx 0;
+  background-color: #f0f3f8;
+}
+
+.work-list{
+  padding-top: 40rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box{
+  width: 346rpx;
+  height: 214rpx;
+  margin-bottom: 10rpx;
+  position: relative;
+}
+
+.pic{
+  width: 100%;
+  height: 100%;
+}
+
+.cloth{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.name{
+  font-size: 34rpx;
+}
+
+.desc{
+  opacity: .6;
+  text-transform: uppercase;
+  font-size: 24rpx;
+}
+
+.line{
+  width: 50rpx;
+  height: 2rpx;
+  background-color: #fff;
+  margin: 10rpx 0 20rpx;
+}
+
+.news{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50rpx 25rpx 70rpx;
+}
+
+.newslist{
+  padding: 40rpx 0;
+}
+
+
+

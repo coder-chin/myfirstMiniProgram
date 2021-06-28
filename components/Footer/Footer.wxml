@@ -1,0 +1,6 @@
+<view class="footer">
+  <image src="/img/bjfu.jpg" class="footer-img" mode="widthFix"></image>
+  <text class="word">- 211高校 -</text>
+  <text class="word">- 全国林业最高学府 -</text>
+  <text class="word">- 国家双一流建设高校 -</text>
+</view>

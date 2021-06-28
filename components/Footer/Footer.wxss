@@ -1,0 +1,13 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 40rpx 0;
+  border-bottom: 2rpx solid #bababa;
+  word-spacing: 2rpx;
+}
+
+.footer-img{
+  width: 220rpx;
+}

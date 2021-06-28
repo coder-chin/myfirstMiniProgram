@@ -1,0 +1,12 @@
+view{
+  box-sizing: border-box;
+}
+
+@keyframes flash{
+  0%,50%,100%{
+    opacity: 1;
+  }
+  25%{
+    opacity: .3;
+  }
+}

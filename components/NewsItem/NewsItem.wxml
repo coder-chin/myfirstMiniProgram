@@ -1,0 +1,11 @@
+<navigator class="newsitem">
+  <image src="{{item.picurl}}" class="item-img"></image>
+  <view class="intro">
+    <text class="title">{{item.title}}</text>
+    <view class="info">
+      <view class="author">作者：{{item.author}}</view>
+      <text space="emsp"> - </text>
+      <view class="time">时间： {{item.posttime}}</view>
+    </view>
+  </view>
+</navigator>

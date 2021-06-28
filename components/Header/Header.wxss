@@ -1,0 +1,36 @@
+/* components/Header/Header.wxss */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  padding: 8rpx 26rpx;
+}
+
+.logo{
+  width: 70rpx;
+}
+
+.logo-img{
+  width: 100%;
+}
+
+.service{
+  height: 80%;
+  width: 70rpx;
+  position: relative;
+}
+
+.btn{
+  position: absolute;
+  right: 0; 
+  opacity: 0;
+}
+
+.service-img{
+  width: 80%;
+  float: right;
+  animation: flash 1.5s linear infinite alternate;
+  /* 最后一个属性是回放 */
+}

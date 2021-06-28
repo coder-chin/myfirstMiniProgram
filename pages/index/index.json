@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "headerview": "/components/Header/Header",
+    "titleview": "/components/PubTitle/PubTitle",
+    "footerview": "/components/Footer/Footer",
+    "newsItem": "/components/NewsItem/NewsItem"
+  }
+}

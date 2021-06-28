@@ -1,0 +1,38 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/major/major",
+    "pages/news/news",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "遇见北林",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./img/index.png",
+        "selectedIconPath": "./img/index-h.png"
+      },
+      {
+        "pagePath": "pages/major/major",
+        "text": "专业",
+        "iconPath": "./img/major.png",
+        "selectedIconPath": "./img/major-h.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "./img/news.png",
+        "selectedIconPath": "./img/news-h.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

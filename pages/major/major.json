@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "headerview": "/components/Header/Header",
+    "footerview": "/components/Footer/Footer"
+  }
+}

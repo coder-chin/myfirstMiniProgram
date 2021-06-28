@@ -1,0 +1,153 @@
+<headerview></headerview>
+
+<swiper class="swiper" indicator-dots indicator-color="rgba(255,255,255,.5)"
+indicator-active-color="rgba(255,255,255)" autoplay circular interval="4000">
+  <swiper-item>
+    <image src="/img/banner1.jpg" mode="heightFix" class="swiper-item"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/img/banner2.jpg" mode="heightFix" class="swiper-item"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/img/banner3.jpg" mode="heightFix" class="swiper-item"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/img/banner4.jpg" mode="heightFix" class="swiper-item"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/img/banner6.jpg" mode="heightFix" class="swiper-item"></image>
+  </swiper-item>
+</swiper>
+
+<view class="department">
+  <scroll-view scroll-x class="college" enable-flex>
+  <view class="institute">
+    <navigator>
+      <image src="/img/forest.png" class="icon" mode="widthFix"></image>
+      <view class="desc">林学院</view>
+    </navigator>
+  </view>
+
+  <view class="institute">
+    <navigator>
+      <image src="/img/garden.png" class="icon" mode="widthFix"></image>
+      <view class="desc">园林学院</view>
+    </navigator>  
+  </view>
+
+  <view class="institute">
+    <navigator>
+      <image src="/img/it.png" class="icon" mode="widthFix"></image>
+      <view class="desc">信息学院</view>
+    </navigator>
+    
+  </view>
+  <view class="institute">
+    <navigator>
+      <image src="/img/industry.png" class="icon" mode="widthFix"></image>
+      <view class="desc">工学院</view>
+    </navigator>
+    
+  </view>
+  <view class="institute">
+    <navigator>
+      <image src="/img/finance.png" class="icon" mode="widthFix"></image>
+      <view class="desc">经管学院</view>
+    </navigator>
+    
+  </view>
+  <view class="institute">
+    <navigator>
+      <image src="/img/design.png" class="icon" mode="widthFix"></image>
+      <view class="desc">艺设学院</view>
+    </navigator>
+    
+  </view>
+</scroll-view>
+
+</view>
+
+<view class="work">
+  <titleview title="学院介绍"></titleview>
+
+  <view class="work-list">
+    <navigator class="box">
+      <image class="pic" src="/img/xszp1.jpg"></image>
+      <view class="cloth">
+        <view class="name">林学院</view>
+        <view class="line"></view>
+        <view class="desc">College of Forestry</view>
+      </view>
+    </navigator>
+    <navigator class="box">
+      <image class="pic" src="/img/xszp2.jpg"></image>
+      <view class="cloth">
+        <view class="name">水土保持学院</view>
+        <view class="line"></view>
+        <view class="desc">School of Soil and Water Conservation</view>
+      </view>
+    </navigator>
+    <navigator class="box">
+      <image class="pic" src="/img/xszp3.jpg"></image>
+      <view class="cloth">
+        <view class="name">理学院</view>
+        <view class="line"></view>
+        <view class="desc">College of Science</view>
+      </view>
+    </navigator>
+    <navigator class="box">
+      <image class="pic" src="/img/xszp4.jpg"></image>
+      <view class="cloth">
+        <view class="name">园林学院</view>
+        <view class="line"></view>
+        <view class="desc">Garden school</view>
+      </view>
+    </navigator>
+    <navigator class="box">
+      <image class="pic" src="/img/xszp5.jpg"></image>
+      <view class="cloth">
+        <view class="name">经济管理学院</view>
+        <view class="line"></view>
+        <view class="desc">school of economics and management</view>
+      </view>
+    </navigator>
+    <navigator class="box">
+      <image class="pic" src="/img/xszp6.jpg"></image>
+      <view class="cloth">
+        <view class="name">工学院</view>
+        <view class="line"></view>
+        <view class="desc">College of Engineerin</view>
+      </view>
+    </navigator>
+    <navigator class="box">
+      <image class="pic" src="/img/xszp7.jpg"></image>
+      <view class="cloth">
+        <view class="name">信息学院</view>
+        <view class="line"></view>
+        <view class="desc">College of IT</view>
+      </view>
+    </navigator>
+    <navigator class="box">
+      <image class="pic" src="/img/xszp8.jpg"></image>
+      <view class="cloth">
+        <view class="name">艺术设计学院</view>
+        <view class="line"></view>
+        <view class="desc">College of Art Design</view>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<view class="news">
+  <titleview title="学校新闻"></titleview>
+
+  <view class="newslist">
+
+    <block wx:for="{{dataList}}" wx:key="index">
+      <newsItem item="{{item}}"></newsItem>
+    </block>
+
+  </view>
+</view>
+
+<footerview></footerview>
