@@ -1,1 +1,31 @@
 /* pages/major/major.wxss */
+.navbar{
+  /* 宽度不能写死 */
+  height: 80rpx;
+  box-shadow: 0 10rpx 10rpx rgba(0, 0, 0, .3);
+  border-top: 1rpx solid #efefef;
+  white-space: nowrap;
+}
+
+.scrollItem{
+  display: inline-block;
+  line-height: 80rpx;
+  width: 140rpx;
+  text-align: center;
+  font-size: 30rpx;
+  position: relative;
+}
+.active{
+  color: #c00;
+}
+.active::after{
+  content: "";
+  display: block;
+  width: 40rpx;
+  height: 5rpx;
+  background: #c00;
+  position: absolute;
+  left: 50%;
+  margin-left: -20rpx;
+  bottom: 0;
+}

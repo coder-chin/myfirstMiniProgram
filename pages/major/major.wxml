@@ -1,3 +1,20 @@
 <headerview></headerview>
 
+<scroll-view class="navbar" scroll-x scroll-with-animation>
+  <view class="scrollItem {{index==navIdx?'active':''}}"
+  bindtap="clickNav"
+  data-id="{{item.id}}" wx:for="{{navlist}}" wx:key="index">
+    {{item.name}}
+  </view>
+</scroll-view>
+
+
+<view class="majorlist">
+  <navigator wx:for="{{majorlist}}" wx:key="index"
+  >
+    <text>{{item.major}}</text>
+    <text>{{item.desc}}</text>  
+  </navigator>
+</view>
+
 <footerview></footerview>

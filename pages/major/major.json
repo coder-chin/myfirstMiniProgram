@@ -2,5 +2,8 @@
   "usingComponents": {
     "headerview": "/components/Header/Header",
     "footerview": "/components/Footer/Footer"
-  }
+  },
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#eee",
+  "navigationBarTitleText":"学校专业"
 }
