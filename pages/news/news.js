@@ -1,4 +1,7 @@
 // pages/news/news.js
+var jsonData = require('../../data/json.js')
+import common from "../../utils/public.js"
+
 Page({
 
   /**
@@ -12,7 +15,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var newslist = jsonData.dataList
+    newslist.forEach(item=>{
+      item.posttime=common.getMyData(item.posttime,"Y-m-d")
+      item.title=common.getStrLen(item.title,20)
+    })
+    this.setData({
+      //jsonData.dataList获取json.js里定义的json数据，并赋值给dataList
+      dataList: newslist
+    })
   },
 
   /**

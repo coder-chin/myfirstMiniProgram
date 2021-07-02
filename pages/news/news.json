@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "headerview": "/components/Header/Header",
-    "footerview": "/components/Footer/Footer"
-  }
+    "footerview": "/components/Footer/Footer",
+    "newsItem": "/components/NewsItem/NewsItem"
+  },
+  "navigationBarTitleText":"学校新闻"
 }

@@ -1,3 +1,10 @@
 <headerview></headerview>
 
+<view class="newslist">
+
+<block wx:for="{{dataList}}" wx:key="index">
+  <newsItem item="{{item}}"></newsItem>
+</block>
+
+</view>
 <footerview></footerview>

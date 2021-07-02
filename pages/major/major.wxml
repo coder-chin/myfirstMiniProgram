@@ -12,8 +12,10 @@
 <view class="majorlist">
   <navigator wx:for="{{majorlist}}" wx:key="index"
   >
-    <text>{{item.major}}</text>
-    <text>{{item.desc}}</text>  
+    <view class="majoritem">
+      <view class="name">{{item.major}}</view>
+      <view class="desc">{{item.desc}}</view>
+    </view>  
   </navigator>
 </view>
 

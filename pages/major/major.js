@@ -1,18 +1,13 @@
 import common from "../../utils/public"
-var navIdout=""
-var pageNum=0
-var navIdx=0
 
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-    navIdx:0,
-    navId:0,
-    ninHit:0,
-    worklist:[],
+    navIdx: 0,
+    navID: 1,
+    collegeId: 1,
     navlist: [],
     majorlist: [],
     onLoaded:false
@@ -30,20 +25,18 @@ Page({
     }
     else collegeId = res
     this.setData({
-      navIdx: collegeId-1
+      navIdx: collegeId-1,
+      navID: collegeId
     })
-    console.log(navIdx);
-    // console.log(collegeId)
     this.getmajorlist(collegeId)
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    this.clickNav(1)
+  onLoad: function () {
     this.getNavData()
-    // this.getWinhit()
+    this.clickNav(1)
   },
 
 
@@ -67,6 +60,7 @@ Page({
         })
         console.log(this.data.majorlist)
         wx.hideLoading()
+        wx.stopPullDownRefresh()
       }
     })
   },
@@ -103,9 +97,9 @@ Page({
    */
   onPullDownRefresh: function () {
     this.setData({
-      worklist:[]
+      majorlist: []
     })
-    this.getWorkList()
+    this.getmajorlist(this.data.navID)
   },
 
   /**
